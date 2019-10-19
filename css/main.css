@@ -162,6 +162,7 @@ video {
 }
 
 .download-button {
+  font-size:1.25em;
   background: #487890;
   padding: 5px;
   margin: 0px 5px 0px 5px;
@@ -178,7 +179,7 @@ video {
 
 h1 {
   font-family: 'Slackey', cursive;
-  font-size: 2.25em;
+  font-size: 2.0em;
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
@@ -193,7 +194,7 @@ h1 {
 
 h2 {
   font-family: 'Slackey', cursive;
-  font-size: 175%;
+  font-size: 1.5ews0em;
   font-weight: 50;
   color: #a8d8f0;
 
@@ -204,7 +205,7 @@ h2 {
 
 h3 {
   font-family: 'Slackey', cursive;
-  font-size: 150%;
+  font-size: 1.35em;
   font-weight: 50;
   color: #a8d8f0;
   text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
@@ -253,4 +254,7 @@ footer a:hover {
     width:90%;
     margin:0 5px 0 5px;
   }
+  .download-button {
+  box-shadow: none;
+  font-size: .75em;
 }
